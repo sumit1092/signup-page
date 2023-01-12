@@ -1,0 +1,90 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.outer-line{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(17, 11, 88),rgb(3, 70, 96));   /* can be removable for diff look*/
+
+}
+.inner-line{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    padding: 10px 20px;
+    border: cyan solid 2px;
+    background-color: #ffffffcc;      /* can be removable for diff look*/
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(9, 23, 91);;      /* can be removable for diff look*/
+    z-index: 2;
+    backdrop-filter: blur(2px);
+}
+.signup-header h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signup-header p{
+    margin: 5px;
+    font-size: 1rem;
+    font-family:cursive;
+    padding: 4px;
+}
+.signup-body p{
+    margin: 10px 10px;
+    font-size: 1.2rem;
+    font-family:Georgia,serif;
+    width: 100;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+#submit{
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(44, 44, 197);
+}
+.signup-footer p{
+    font-family: cursive;
+    text-align: center;
+}
+.signup-footer p a{
+    color: blue;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top left,#4b3fcb, rgb(230, 224, 224));/* can be removable for diff look*/
+    position:absolute;
+}
+.c1{ 
+    top: 1px;
+    left: 40px;
+}
+.c2{
+    bottom: 40px;
+    right: 100px;
+} 
+
